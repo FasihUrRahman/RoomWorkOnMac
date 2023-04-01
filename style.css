@@ -1,0 +1,38 @@
+.traffic-analyzer-section {
+    margin-top: 50px;
+  }
+  
+  #traffic-results table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  #traffic-results th, #traffic-results td {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+  }
+  
+  #traffic-results th {
+    font-weight: bold;
+  }
+  
+  #add-keyword-form {
+    margin-top: 20px;
+  }
+  
+  #contact-form {
+    margin-top: 20px;
+  }
+  
+  #contact-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #contact-form textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  

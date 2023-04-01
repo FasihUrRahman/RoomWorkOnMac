@@ -5,8 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="traffic-analyzer-section">
+        <h2>Traffic Analyzer</h2>
+        <form>
+          <label for="website-link">Enter your website link:</label>
+          <input type="text" id="website-link" name="website-link" required>
+          <button type="submit">Analyze</button>
+        </form>
+        <div id="traffic-results">
+          <h3>Keywords and Traffic</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>Keyword</th>
+                <th>Traffic</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- results will be populated here -->
+            </tbody>
+          </table>
+          <form id="add-keyword-form">
+            <label for="add-keyword">Add keyword:</label>
+            <input type="text" id="add-keyword" name="add-keyword">
+            <button type="submit">Add</button>
+          </form>
+          <p>Potential traffic: <span id="potential-traffic"></span></p>
+          <p>Rating: <span id="rating"></span></p>
+          <form id="contact-form">
+            <label for="contact-message">Contact us if you want assistance with improving your traffic and rankings:</label>
+            <textarea id="contact-message" name="contact-message"></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+      
+    <script src="script.js"></script>
 </body>
 </html>
